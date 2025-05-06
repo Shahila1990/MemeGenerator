@@ -1,7 +1,7 @@
 import { useState , useEffect } from "react"
 
 export default function Main(){
-    const[meme, setMeme] =useState({
+    const[meme, setMeme]=useState({
         imageurl: "http://i.imgflip.com/1bij.jpg",
         topText : "One does not simply",
         bottomText : "Walk into Mordor"
